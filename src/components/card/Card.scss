@@ -1,0 +1,50 @@
+
+
+
+.card {
+    // margin: 0 22.5px 45px 22.5px;
+    margin-bottom: 45px;
+    border-radius: 10px 10px 10px 10px;
+    width: 350px;
+    @media (max-width: 575.98px) {
+        margin-bottom: 42px;
+        width: 335px;
+    }
+    .viaje { 
+        width: 350px;
+        .imgViaje {
+            height: 280px;
+            width: 350px;
+            border-radius: 10px 10px 0px 0px;
+            @media (max-width: 575.98px) {
+                width: 335px;
+            }
+        }
+    }
+    
+    .card-body{
+        display: flex;
+        background:  rgba(214, 213, 214, 0.45);
+        border-radius: 0px 0px 10px 10px;
+        height: 70px;
+        width: 350px;
+        @media (max-width: 575.98px) {
+            width: 335px;
+        }
+        .imgProfile{
+            width: 45px;
+            border-radius: 22.5px;
+            margin-right: 11.24px;
+        }
+        .card-title {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18.75px;
+        }
+        .card-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18.75px;
+        }
+    }
+} 

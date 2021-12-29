@@ -1,0 +1,28 @@
+@import '../../assets/scss/utils/Consts.scss'; 
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .cards {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        @media (max-width: 575.98px) {
+            justify-content: center;
+          }
+    }
+    .loadContainer {
+        text-align: center;
+        .load {
+            color: $color-primary;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23.5px;
+            margin-bottom: 82px;
+            @media (max-width: 575.98px) {
+                margin-bottom: 57px;
+              }
+    }
+    }
+}

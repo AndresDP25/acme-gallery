@@ -1,0 +1,30 @@
+@import '../../assets/scss/utils/Consts.scss';
+
+.footer { 
+    height: 61px;
+    background: $color-grey;
+    border-top: 6px solid $color-primary;
+    text-align: center;
+    .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-top: 12px;
+       .logoF {
+        @media (max-width: 575.98px) {  
+            display: none;
+          }
+       }
+        .reserved{
+            color: $color-white;
+            font-weight: 400;
+            font-size: 19px;
+            margin-left: 14px;
+            height: 26px;
+            @media (max-width: 575.98px) { 
+                font-weight: 600;
+            }
+        }
+    }
+    
+}
